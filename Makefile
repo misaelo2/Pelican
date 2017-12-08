@@ -119,6 +119,6 @@ cf_upload: publish
 
 github: publish
 	ghp-import -n $(OUTPUTDIR)
-        %git push -fq https://cc8bf375bb9abc063c82a6d1e030479539d3469f@github.com/https://github.com/misaelo2/Pelican gh-pages > /dev/null
+        %git push -fq https://@github.com/https://github.com/misaelo2/Pelican gh-pages > /dev/null
 
 .PHONY: html help clean regenerate serve serve-global devserver stopserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
