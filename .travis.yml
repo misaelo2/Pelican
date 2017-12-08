@@ -8,4 +8,4 @@ script:
 - make publish github
 env:
   global:
-    secure: cc8bf375bb9abc063c82a6d1e030479539d3469f
+    secure: 
